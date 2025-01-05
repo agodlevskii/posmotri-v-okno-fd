@@ -112,7 +112,6 @@ ol {
   grid-template-columns: 1fr 1fr min-content;
   justify-content: space-between;
   width: 100%;
-  margin-left: 1px;
 }
 
 .search-form__fieldset {
@@ -123,7 +122,7 @@ ol {
 }
 
 .search-form__fieldset:nth-of-type(2) {
-  margin-left: 8px;
+  margin-left: 6px;
   gap: 6px;
 }
 
@@ -204,14 +203,15 @@ ol {
 .content {
   display: grid;
   grid-template: auto / 3fr 2fr;
-  gap: 2rem;
+  gap: 30px;
   margin-top: -50px;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 22px;
+  width: 400px;
 }
 
 .title {
@@ -236,7 +236,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  gap: 30px;
   margin-bottom: 2rem;
 }
 
@@ -296,7 +296,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 255px;
+  width: 195px;
   height: 103px;
   object-fit: cover;
   object-position: center;
