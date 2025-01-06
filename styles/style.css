@@ -202,9 +202,8 @@ ol {
 
 .content {
   display: grid;
-  grid-template: auto / 3fr 2fr;
+  grid-template: auto / 3fr min-content;
   gap: 30px;
-  margin-top: -50px;
 }
 
 .content__details {
@@ -270,6 +269,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  max-width: 180px;
   font-family: Oswald, sans-serif;
   color: #FFFFFF;
 }
